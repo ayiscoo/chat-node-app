@@ -12,7 +12,7 @@ const path = require('path');
 
 app.use(express.static(publicPath));
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log(`connected to port ${port}`);
  });
 
